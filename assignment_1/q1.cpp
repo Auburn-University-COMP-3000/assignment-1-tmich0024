@@ -1,18 +1,15 @@
 #include <iostream>
 
-using namespace std; 
+using namespace std;
 
+int main(){
 
-int main() {
+    int a;
+    cout << "Enter a number"<< endl;
 
-    int a; 
-    cout << "enter a number" << endl; 
-    cin >> a; 
-    cout << "output: " << a * a; 
+    cin>> a;
+    cout << "The square of the number is:" << a*a;
 
-    return 0; 
-
-
+    return 0;
 }
-
 

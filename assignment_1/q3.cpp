@@ -1,21 +1,14 @@
 #include <iostream>
 
-using namespace std; 
+using namespace std;
 
-int main() {
+int main(){
 
-const int acc = 32; 
-int t; 
-int distance; 
+    int seconds;
+    cout << "Enter a time in seconds:"<< endl;
 
-cout << "Enter a time in seconds: "<< endl; 
+    cin >> seconds;
+    cout << "An object in freefall for " << seconds << " seconds will fall "<< 0.5*32*seconds*seconds << " feet.";
 
-cin>> t; 
-
-distance = (acc/2) * (t*t);
-
-cout<< ""<< t << "will fall in" << distance << "feet"; 
-
-return 0; 
+    return 0;
 }
-
