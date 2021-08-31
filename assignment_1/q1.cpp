@@ -1,3 +1,5 @@
+// assignment #1 for Thomas Mitchell tem0024
+
 #include <iostream>
 
 using namespace std;
